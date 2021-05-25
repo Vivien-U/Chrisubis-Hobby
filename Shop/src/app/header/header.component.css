@@ -1,0 +1,50 @@
+#kopfbereich {
+    top:0px;
+    width:100%;
+    background: rgb(94, 120, 160);
+    text-align: center;
+    color: white;
+    font-family: Verdana;
+    font-style: italic;
+    font-weight: bolder;
+  }
+  
+  .header {
+    position: fixed;
+    top:0px;
+    width: 100%;
+  }
+  
+  h1 {
+    padding-top: 10px;
+  }
+  
+  #kopfbereich p {
+    margin-bottom: 0px;
+    font-size: small;
+  }
+  
+  .navbar {
+    width:100%;
+    background-color: rgb(94, 120, 160);
+    font-family: Verdana; 
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  a.nav-link:hover:not(.active) {
+    background-color: rgb(222, 228, 236);
+  }
+  
+  

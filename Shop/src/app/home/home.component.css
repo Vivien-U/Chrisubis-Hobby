@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond:regular,500,600,700,800,italic,500italic,600italic,700italic,800italic);
+
+.headline {
+  font-size: 40px;  
+  font-family: Dancing Script;
+}
+
+#textbereich {
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8%;
+  margin-bottom: 4%;
+}
+
+.left-top, .right-top {
+  -ms-flex: 50%;
+  flex: 50%;
+  background-color: rgb(222, 228, 236);
+}
+
+.text {
+  margin-left: 15em;
+  width: 41em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.left, .right {   
+  -ms-flex: 50%;
+  flex: 50%;
+  background-color: rgb(158, 174, 198);
+  color: white;
+}
+
+.left-under, .right-under {   
+  -ms-flex: 50%;
+  flex: 50%;
+  background-color: rgb(205, 208, 212);
+  color: white;
+  margin-top: 5em;
+}
+
+.right { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.right-top {
+display: flex; 
+justify-content: center; 
+align-items: center;
+}
+
+#picture3, #picture4 {
+  max-width: 70%;
+  border-color: rgb(94, 120, 160);
+  border-width: 10px;
+  border-style: solid;
+}
+
+
+figcaption {
+  text-align: center;
+  background: rgb(94, 120, 160);
+  max-width: 70%;
+  padding: 10px;
+}
+
+h2 {
+  font-family: Dancing Script;
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: Dancing Script;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h4 {
+  font-size: 35px;
+  font-family: Dancing Script;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h5 {
+  text-align: center;
+  font-size: 23px;
+  font-family: Dancing Script;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  font-family: EB Garamond;
+}
+
+.left-under p{
+  text-align: left;
+}
+
+.right-under p{
+  text-align: left;
+}

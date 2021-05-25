@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond:regular,500,600,700,800,italic,500italic,600italic,700italic,800italic);
+
+#textbereich {  
+    margin-top: 9%!important;
+    margin: 0 auto;
+    width: 750px;
+    padding: 60px 20px;
+  }
+
+  h1 {
+      font-family: 	dancing script;
+      font-size: 48px;
+      text-align: center;
+  }
+
+  h2 {
+      font-style: border;
+      font-size: 18px;
+  }
+
+  p {
+      font-family: EB Garamond;
+      font-size: 18px;
+  }

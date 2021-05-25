@@ -1,0 +1,12 @@
+footer {
+    position:absolute;
+    width: 100%;
+    background-color: rgb(94, 120, 160);
+  }
+  
+  a {
+    margin: auto;
+    color: white;
+    text-decoration: underline;
+    padding: 20px;
+  } 
