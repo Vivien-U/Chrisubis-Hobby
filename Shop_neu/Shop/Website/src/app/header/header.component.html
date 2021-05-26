@@ -1,0 +1,38 @@
+<div class="header">
+    <div id="kopfbereich">
+        <h1>Chrisubis-Hobby</h1>
+        <p>Holz und Beton, Deko made by Christine und Bianca</p>
+    </div> <!-- Ende kopfbereich -->
+    <div> 
+        <mat-toolbar>
+            <div fxHide.gt-xs>
+                <button mat-icon-button (click)="onToggleSidenav()">
+                    <mat-icon>menu</mat-icon>
+                </button>
+            </div>
+            <div>
+            <div class="brand">Menü</div>
+            </div>
+            <div fxFlex fxLayout fxLayoutAlign="start" fxHide.xs>
+                <ul fxLayout fxLayoutGap="15px" class="navigation-items">
+                    <li>
+                        <a routerLink="/owner">Startseite</a>
+                    </li>
+                    <li>
+                        <a routerLink="/account">Shop</a>
+                    </li>
+                    <li>
+                        <a routerLink="/account">Kontakt</a>
+                    </li> 
+                </ul>             
+            <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
+                <ul fxLayout fxLayoutGap="15px" class="navigation-items">
+                 <li>
+                    <a routerLink="/account">Warenkorb</a>
+                </li>
+                </ul>
+                </div>           
+            </div>
+
+          </mat-toolbar>
+</div> 

@@ -1,0 +1,57 @@
+#kopfbereich {
+    top:0px;
+    width:100%;
+    background: rgb(94, 120, 160);
+    text-align: center;
+    color: white;
+    font-family: Verdana;
+    font-style: italic;
+    font-weight: bolder;
+  }
+
+  
+  h1 {
+    padding-top: 10px;
+    font-size: xx-large;
+  }
+  
+  #kopfbereich p {
+    margin-bottom: 0px;
+    font-size: small;
+  }
+
+a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.brand {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+a:hover, a:active{
+    background-color: rgb(222, 228, 236);
+}
+
+.navigation-items{
+    list-style-type: none;
+    padding: 1;
+}
+
+mat-toolbar{
+    background-color: rgb(94, 120, 160);
+}
+
+mat-icon{
+    color: white;
+}
