@@ -49,6 +49,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { NavigationComponent } from './navigation/navigation.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 
 @NgModule({
@@ -56,6 +57,7 @@ import { NavigationComponent } from './navigation/navigation.component';
     AppComponent,
     HeaderComponent,
     NavigationComponent,
+    HomepageComponent,
   ],
   imports: [
     BrowserModule,

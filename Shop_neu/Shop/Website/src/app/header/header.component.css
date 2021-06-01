@@ -1,6 +1,4 @@
 #kopfbereich {
-    top:0px;
-    width:100%;
     background: rgb(94, 120, 160);
     text-align: center;
     color: white;
@@ -8,7 +6,6 @@
     font-style: italic;
     font-weight: bolder;
   }
-
   
   h1 {
     padding-top: 10px;

@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond:regular,500,600,700,800,italic,500italic,600italic,700italic,800italic);
+  
+  h2 {
+    font-family: Dancing Script;
+    font-size: 40px;
+  }
+  
+  h3 {
+    font-size: 25px;
+    font-family: Dancing Script;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  h4 {
+    font-size: 35px;
+    font-family: Dancing Script;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  h5 {
+    font-size: 23px;
+    font-family: Dancing Script;
+    padding-bottom: 10px;
+  }
+
+p {
+  font-size: 18px;
+  font-family: EB Garamond;
+}
+
+#picture3 {
+  max-width: 80%;
+  border-color: rgb(94, 120, 160);
+  border-width: 10px;
+  border-style: solid;
+  }
+
+#mitte{
+  background-color: rgb(158, 174, 198);
+  color: white;
+}
+
+.mat-card {
+  background-color: rgb(222, 228, 236);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
+}
+
+.mat-card:not([class*=mat-elevation-z]) {
+  box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 0%), 0px 0px 0px 0px rgb(0 0 0 / 0%), 0px 0px 0px 0px rgb(0 0 0 / 0%);
+}
+
+#unten {
+  text-align: center;
+  background: rgb(94, 120, 160);
+  width: 80%;
+  padding: 10px;
+  color: white;
+}
+
+#unten p {
+  text-align: left;
+}
+
+#links {
+  margin-left: 15em;
+}
+
+#rechts {
+  margin-right: 15em;
+}
+
+.mat-card-image {
+  margin: 0;
+}
+
+#picture2{
+  padding-top: 16px;
+}
