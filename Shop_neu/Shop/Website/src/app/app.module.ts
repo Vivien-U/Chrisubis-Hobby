@@ -50,6 +50,14 @@ import { HeaderComponent } from './header/header.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { NavigationComponent } from './navigation/navigation.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { ShopComponent } from './shop/shop.component';
+import { RevocationComponent } from './revocation/revocation.component';
+import { PrivacyComponent } from './privacy/privacy.component';
+import { DeliveryComponent } from './Payment/delivery/delivery.component';
+import { ImprintComponent } from './imprint/imprint.component';
+import { ContactComponent } from './contact/contact.component';
+import { ConditionsComponent } from './conditions/conditions.component';
+import { BasketComponent } from './basket/basket.component';
 
 
 @NgModule({
@@ -58,6 +66,14 @@ import { HomepageComponent } from './homepage/homepage.component';
     HeaderComponent,
     NavigationComponent,
     HomepageComponent,
+    ShopComponent,
+    RevocationComponent,
+    PrivacyComponent,
+    DeliveryComponent,
+    ImprintComponent,
+    ContactComponent,
+    ConditionsComponent,
+    BasketComponent,
   ],
   imports: [
     BrowserModule,
