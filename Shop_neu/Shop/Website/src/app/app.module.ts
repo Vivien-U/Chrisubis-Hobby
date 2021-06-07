@@ -58,7 +58,8 @@ import { ImprintComponent } from './imprint/imprint.component';
 import { ContactComponent } from './contact/contact.component';
 import { ConditionsComponent } from './conditions/conditions.component';
 import { BasketComponent } from './basket/basket.component';
-
+import { FooterComponent } from './footer/footer.component';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -74,6 +75,7 @@ import { BasketComponent } from './basket/basket.component';
     ContactComponent,
     ConditionsComponent,
     BasketComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
@@ -124,6 +126,8 @@ import { BasketComponent } from './basket/basket.component';
     PortalModule,
     ScrollingModule,
     FlexLayoutModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
